@@ -52,6 +52,9 @@ a{
     color: #ffffff;
     font-family: 'Fraunces', serif;
 }
+.showCase .arrow{
+   padding: 50%;
+}
 
 /* flex columns */
 .flexColumns .row{
@@ -92,7 +95,7 @@ a{
     padding-top: 20px;
     color: black;
     border-bottom: 3px solid  #ffed87; 
-    width: 20%;
+    width: 24%;
 }
 .btn1:hover{
     border-bottom: 3px solid  #fad400; 
@@ -110,7 +113,7 @@ a{
     padding-top: 20px;
     color: black;
     border-bottom: 3px solid #faafa5 ; 
-    width: 20%;
+    width: 24%;
 }
 .btn2:hover{
     border-bottom: 3px solid  #fe7867; 
@@ -150,4 +153,84 @@ a{
 .columns2 h1{
     font-family: 'Fraunces', serif;
     padding-bottom: 20px;
+}
+.flexItems .sectionHeader{
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    font-family: 'Fraunces', serif;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 5px;
+}
+.flexItems .team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 110px;
+}
+.flexItems div img{
+    border-radius: 50%;
+    width: 9vh;
+    height: 9vh;
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.team div p{
+    color:hsl(213, 9%, 39%);
+    text-align: center;
+    padding: 0 17px;
+}
+.team div h1{
+    font-size: 13px;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 7px;
+}
+.team div h4{
+    color: hsl(210, 4%, 67%);
+}
+.gallery img{
+    display: flex;
+    max-width: 25%;
+    flex: 25%;
+    height: 100%;
+}
+.gallery .galleryImage {
+    display: flex;
+    margin-top: 150px;
+} 
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(168, 52%, 46%);
+    width: 100%;
+    height: 300px;
+}
+footer h1{
+    font-size: 30px;
+    color: #26574c;
+    font-family: 'Barlow', sans-serif;
+}
+footer ul{
+    display: flex;
+    padding: 20px;
+}
+footer a{
+    font-weight: 700;
+    font-size: 14px;
+    color: #26574c;
+    padding: 20px;
+}
+footer .icons{
+    margin-top: 30px;
+    word-spacing: 15px;
 }
