@@ -37,9 +37,19 @@ a{
     display: flex;
     padding: 15px 20px;
 }
-.navBar ul li a{
+.navBar a{
     padding: 0 20px;
-    color: #ffff;
+    color: #ffff; 
+}
+a[target]{
+    background: white;
+    color: rgba(0, 0, 0, 0.719);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+a[target]:hover{
+    background:  rgb(204, 237, 248);
+    color: white;
 }
 .showCase h1{
     display: flex;
@@ -229,6 +239,9 @@ footer a{
     font-size: 14px;
     color: #26574c;
     padding: 20px;
+}
+footer a:hover{
+    color: #ffffff;
 }
 footer .icons{
     margin-top: 30px;
