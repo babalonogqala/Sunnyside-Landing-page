@@ -56,14 +56,15 @@ a[target]:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 30vh; 
     font-weight: 700;
     font-size: 4rem;
     color: #ffffff;
     font-family: 'Fraunces', serif;
 }
-.showCase .arrow{
-   padding: 50%;
+.showCase svg{
+    margin: auto;
+    display: block;
 }
 
 /* flex columns */
@@ -164,6 +165,7 @@ a[target]:hover{
     font-family: 'Fraunces', serif;
     padding-bottom: 20px;
 }
+/* testimonials */
 .flexItems .sectionHeader{
     background: hsl(0, 0%, 100%);
     display: flex;
@@ -206,6 +208,7 @@ a[target]:hover{
 .team div h4{
     color: hsl(210, 4%, 67%);
 }
+/* gallery */
 .gallery img{
     display: flex;
     max-width: 25%;
